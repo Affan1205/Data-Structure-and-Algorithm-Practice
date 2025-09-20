@@ -6,15 +6,15 @@ public class PracticeQuesFunction04 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("enter the two numbers: ");
-        int num1 = input.nextInt();
-        int num2 = input.nextInt();
-        int ans = sum(num1, num2);
-        System.out.println("Sum of " + num1 + " and " + num2 + " is " + ans);
-
+        System.out.println("enter the two number: ");
+        int a = input.nextInt();
+        int b = input.nextInt();
+        int ans = sum(a, b);
+        System.out.println("Sum of two number is : " + ans);
     }
 
     static int sum(int a, int b) {
         return a + b;
     }
+
 }

@@ -6,8 +6,8 @@ public class PracticeQuesFunction06 {
         System.out.println("enter the radiurs: ");
         double radius = input.nextDouble();
         double area = areaCircle(radius);
-        double circumference = circumferenceCircle(radius);
         System.out.printf("Area of circle is %.3f%n" , area);
+        double circumference = circumferenceCircle(radius);
         System.out.printf("circumference of circle is %.3f%n" , circumference);
     }
 
