@@ -17,24 +17,27 @@ public class ArrayInput {
 
         // Input using for loop
         for (int i = 0; i < arr.length; i++) {
-        arr[i] = input.nextInt();
+            arr[i] = input.nextInt();
         }
+        //Printing using for loop
         for (int i = 0; i < arr.length; i++) {
-        System.out.print(arr[i] + " ");
+            System.out.print(arr[i] + " ");
         }
 
-        // Input using for each loop
+        // Input
         for (int i = 0; i < arr.length; i++) {
-        arr[i] = input.nextInt();
+            arr[i] = input.nextInt();
         }
+        // Printing using for each loop
         for (int num : arr) {// for every element in the array print the array
-        System.out.print(num + " ");// here num represent the element of array
+            System.out.print(num + " ");// here num represent the element of array
         }
 
-        // Input using (to string)
+        // Input
         for (int i = 0; i < arr.length; i++) {
-        arr[i] = input.nextInt();
+            arr[i] = input.nextInt();
         }
+        // Printing using (to string)
         System.out.println(Arrays.toString(arr));
 
         // -----> array of object <-----
