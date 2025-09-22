@@ -1,7 +1,7 @@
 import java.util.Scanner;
-import java.util.ArrayList; // Import the correct ArrayList
+import java.util.ArrayList; 
 
-public class AarrayList { // Renamed class to avoid conflict
+public class AarrayList { 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         // Syntax

@@ -6,6 +6,7 @@ public class MultiDArrayInput {
         Scanner input = new Scanner(System.in);
         int[][] arr = new int[3][3];
         System.out.println(arr.length);// gives -> number of rows
+        
         // Input using for loop
         for (int row = 0; row < arr.length; row++) {
             // for each col in every row
