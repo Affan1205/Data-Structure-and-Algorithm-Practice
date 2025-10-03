@@ -4,27 +4,27 @@ import java.util.Scanner;
 
 public class PracticeQuesJava4 {
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
-        System.out.println("enter two numbers: ");
-        float num1 = input.nextFloat(), num2 = input.nextFloat();
-        System.out.println("select the operation + , - , * , / ");
+        System.out.println("enter 2 number: ");
+        int num1 = input.nextInt(), num2 = input.nextInt();
+        System.out.println("Enter the Operator(+, -, *, /) : ");
         char ch = input.next().charAt(0);
         if (ch == '+') {
-            float sum = num1 + num2;
-            System.out.println("sum is = " + sum);
+            System.out.println(num1 + num2);
         } else if (ch == '-') {
-            float diff = num1 - num2;
-            System.out.println("difference is " + diff);
+            System.out.println(num1 - num2);
         } else if (ch == '*') {
-            float multi = num1 * num2;
-            System.out.println("multiplication is " + multi);
+            System.out.println(num1 * num2);
         } else if (ch == '/') {
             if (num2 == 0) {
-                System.out.println("Invalid ! Try Again.");
+                System.out.println("number can't divide by 0.");
             }
-            float div = num1 / num2;
-            System.out.println("difference is " + div);
+            System.out.println(num1 / num2);
+        } else {
+            System.out.println("Invalid input!!");
         }
 
-  }
+    }
+
 }

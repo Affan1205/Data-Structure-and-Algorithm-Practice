@@ -4,13 +4,15 @@ import java.util.Scanner;
 
 public class PracticeQuesJava1 {
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
-        System.out.println("enter an input: ");
+        System.out.println("enter the input: ");
         int num = input.nextInt();
         if (num % 2 == 0) {
-            System.out.println(num + " is even number.");
+            System.out.println(num + " is even.");
         } else {
-            System.out.println(num + " is odd number.");
+            System.out.println(num + " is odd.");
         }
     }
+
 }

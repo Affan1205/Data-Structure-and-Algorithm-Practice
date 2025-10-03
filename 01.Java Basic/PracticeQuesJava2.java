@@ -5,8 +5,10 @@ import java.util.Scanner;
 public class PracticeQuesJava2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("enter your name : ");
+        System.out.println("Enter yout name: ");
         String name = input.nextLine();
-        System.out.println(name + " Welcome to World of Coders.");
+        System.out.println("Hello !! " + name);
     }
+
+    
 }

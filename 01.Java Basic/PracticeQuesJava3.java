@@ -5,13 +5,16 @@ import java.util.Scanner;
 public class PracticeQuesJava3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("enter principal amount ");
-        float principal = input.nextFloat();
-        System.out.println("enter time ");
-        float time = input.nextFloat();
-        System.out.println("enter rate of interst ");
-        float rate = input.nextFloat();
-        double simpleIntrest = (principal * time * rate) / 100;
-        System.out.println("simple interst is = " + simpleIntrest);
+        System.out.println("enter the prinipal amount: ");
+        double principal = input.nextDouble();
+        System.out.println("enter the time  ");
+        double time = input.nextDouble();
+        System.out.println("enter the rate of intrest: ");
+        double rate = input.nextDouble();
+        double simpleIntrest = (principal * rate * time) / 100;
+        System.out.println("Simple Intrest = " + simpleIntrest);
+
     }
+
+    
 }
