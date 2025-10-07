@@ -17,7 +17,7 @@ public class PracticeQuesJava8 {
             }
             start++;
             end--;
-
+            
         }
         if (isPalindrome) {
             System.out.println(str + " is palindrome.");
@@ -26,3 +26,5 @@ public class PracticeQuesJava8 {
         }
     }
 }
+
+//
