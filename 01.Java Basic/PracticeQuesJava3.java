@@ -7,7 +7,7 @@ public class PracticeQuesJava3 {
         Scanner input = new Scanner(System.in);
         System.out.println("enter the prinipal amount: ");
         double principal = input.nextDouble();
-        System.out.println("enter the time  ");
+        System.out.println("enter the time ");
         double time = input.nextDouble();
         System.out.println("enter the rate of intrest: ");
         double rate = input.nextDouble();
@@ -15,6 +15,4 @@ public class PracticeQuesJava3 {
         System.out.println("Simple Intrest = " + simpleIntrest);
 
     }
-
-    
 }
